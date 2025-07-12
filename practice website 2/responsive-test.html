@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Test - Whitepace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .screen-size {
+            background: #4F9CF9;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .test-link {
+            display: inline-block;
+            background: #043873;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 10px 10px 10px 0;
+            transition: background 0.3s;
+        }
+        .test-link:hover {
+            background: #2563eb;
+        }
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Responsive Design Test</h1>
+        
+        <div class="instructions">
+            <h3>Testing Instructions:</h3>
+            <ol>
+                <li>Open the main website in a new tab</li>
+                <li>Use browser developer tools (F12) to test different screen sizes</li>
+                <li>Or resize your browser window to test responsiveness</li>
+                <li>Test on mobile devices if possible</li>
+            </ol>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Desktop (1200px+)</div>
+            <p>Full layout with side-by-side sections, large images, and desktop navigation.</p>
+            <a href="index.html" class="test-link" target="_blank">Test Desktop Layout</a>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Tablet (768px - 1023px)</div>
+            <p>Stacked layout with centered content, medium-sized images, and tablet-optimized navigation.</p>
+            <a href="index.html" class="test-link" target="_blank">Test Tablet Layout</a>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Mobile (480px - 767px)</div>
+            <p>Single column layout with hamburger menu, small images, and touch-friendly buttons.</p>
+            <a href="index.html" class="test-link" target="_blank">Test Mobile Layout</a>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Small Mobile (320px - 479px)</div>
+            <p>Compact layout with minimal padding, optimized for very small screens.</p>
+            <a href="index.html" class="test-link" target="_blank">Test Small Mobile Layout</a>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Key Features to Test:</div>
+            <ul>
+                <li>✅ Mobile hamburger menu functionality</li>
+                <li>✅ Responsive images that scale properly</li>
+                <li>✅ Touch-friendly button sizes (44px minimum)</li>
+                <li>✅ Readable text at all screen sizes</li>
+                <li>✅ Proper spacing and padding adjustments</li>
+                <li>✅ Pricing cards stack properly on mobile</li>
+                <li>✅ Testimonials display in single column on mobile</li>
+                <li>✅ Footer content is properly aligned on mobile</li>
+            </ul>
+        </div>
+
+        <div class="test-item">
+            <div class="screen-size">Browser Developer Tools Shortcuts:</div>
+            <ul>
+                <li><strong>Chrome/Edge:</strong> F12 → Click device icon → Select device</li>
+                <li><strong>Firefox:</strong> F12 → Click responsive design mode</li>
+                <li><strong>Safari:</strong> Develop → Enter Responsive Design Mode</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
